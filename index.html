@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game with Animation</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <div>
+        <div class="container" id="gameBoard" aria-label="Tic Tac Toe Game Board">
+            <div class="cell" data-index="0" role="button" tabindex="0" aria-label="Cell 1"></div>
+            <div class="cell" data-index="1" role="button" tabindex="0" aria-label="Cell 2"></div>
+            <div class="cell" data-index="2" role="button" tabindex="0" aria-label="Cell 3"></div>
+            <div class="cell" data-index="3" role="button" tabindex="0" aria-label="Cell 4"></div>
+            <div class="cell" data-index="4" role="button" tabindex="0" aria-label="Cell 5"></div>
+            <div class="cell" data-index="5" role="button" tabindex="0" aria-label="Cell 6"></div>
+            <div class="cell" data-index="6" role="button" tabindex="0" aria-label="Cell 7"></div>
+            <div class="cell" data-index="7" role="button" tabindex="0" aria-label="Cell 8"></div>
+            <div class="cell" data-index="8" role="button" tabindex="0" aria-label="Cell 9"></div>
+        </div>
+        <div class="message" id="message"></div>
+        <button id="resetBtn">Restart Game</button>
+    </div>
+
+    <!-- Sound effects -->
+    <audio id="moveSound" src="https://www.soundjay.com/button/sounds/button-1.mp3" preload="auto"></audio>
+    <audio id="winSound" src="https://www.soundjay.com/button/sounds/button-3.mp3" preload="auto"></audio>
+
+    <script src="script.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>
